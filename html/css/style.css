@@ -33,19 +33,19 @@ body {
 }
 
 .l-title {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     color: #e6e6e6;
 
     border-bottom: 0.1vh solid #c0c0c0;
 }
 
 .l-sub {
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     text-align: center;
     color: #c0c0c0;
 
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .num-container {
@@ -55,39 +55,17 @@ body {
     width: 100%;
     height: 20%;
 
-    margin-top: 5%;
 }
 
 .num-circle {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 7vh;
-    height: 7vh;
+    width: 6.5vh;
+    height: 6.5vh;
 
     border-radius: 50%;
 
     background-color: rgb(143, 143, 143);
     cursor: pointer;
-}
-
-.num-circle span {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 7vh;
-    height: 7vh;
-
-    border-radius: 50%;
-    font-size: 2.0vw;
-    font-weight: 700;
-    z-index: 1;
-
-    opacity: 0;
-}
-
-@keyframes fadeIn {
-    100% {
-        opacity: 1;
-    }
 }

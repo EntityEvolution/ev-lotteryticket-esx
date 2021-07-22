@@ -48,27 +48,6 @@ const beginNums = () => {
     }
 }
 
-// Fading in on clicking
-for (i=0; i < elem.length; i++) {
-    nums[i].addEventListener('click', fadeNum, false);
-}
-
-function fadeNum() {
-    let save = this
-    save.style.animation = 'fadeIn 1s forwards';
-    setTimeout(function () {
-        save.style.animation = 'none'
-        save.style.opacity = '1'
-    }, 600)
-}
-
-// Close ticket
-doc.getElementById('end').addEventListener('click', ()=> {
-    for (i=0; i < elem.length; i++) {
-        nums[i].style.display = 'none'
-    }
-})
-
 this.window.onload = () => {
     beginNums()
 }
