@@ -48,12 +48,19 @@ body {
     margin-right: 5%;
 }
 
+.l-subtitle {
+    font-size: 2.5vw;
+    color: #cacaca;
+
+    margin-top: 3%;
+}
+
 .num-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 20%;
+    height: 15%;
 
 }
 
@@ -68,4 +75,15 @@ body {
 
     background-color: rgb(143, 143, 143);
     cursor: pointer;
+}
+
+.end-btn {
+    width: 50%;
+    height: 6%;
+    font-size: 1.2vw;
+    font-family: 'Rubik', sans-serif;
+    
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 0.5vh;
 }
