@@ -1,0 +1,69 @@
+body {
+overflow: hidden;
+
+}
+
+.wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background-color: rgb(0, 0, 138);
+    position: relative;
+    width: 25%;
+    height: 90%;
+    border: 5px dashed #f7a239;
+}
+
+.titlea{
+font-size: 3vw;
+text-align: center;
+color: yellow;
+font-family: gotham-medium, sans-serif;
+}
+
+.titleb{
+font-size: 4vw;
+text-align: center;
+color: yellow;
+font-family: gotham-medium, sans-serif;
+position: relative;
+}
+
+.titlec{
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: GothamRounded-Bold, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: GothamRounded-Book, sans-serif;
+    font-size: 1vw;
+    color: #ffffff;
+}
+
+.redball {
+    padding-left: 34%;
+}
+.aaa {
+    background-image: url(../../../uploads/jugar_yellow_ballot.png);
+    height: 80px;
+    width: 84px;
+    font-family: BIGJOHN, sans-serif;
+    font-size: 1.500em;
+    color: #000;
+    text-decoration: underline;
+    background-position: 0 3px;
+}
+
+
