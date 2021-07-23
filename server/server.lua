@@ -1,3 +1,9 @@
+if Config.useESX then
+    ESX = nil
+
+    TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+end
+
 -- Set Lang
 i18n.setLang(Config.setLang)
 
