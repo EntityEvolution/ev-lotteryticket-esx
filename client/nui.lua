@@ -1,5 +1,8 @@
 local isOpen
 
+-- Set Lang
+i18n.setLang(Config.setLang)
+
 RegisterNUICallback('getWinData', function(data, cb)
 	if isOpen then
 		local numbers =  table.concat()

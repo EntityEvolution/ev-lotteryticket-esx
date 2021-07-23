@@ -1,3 +1,6 @@
+-- Set Lang
+i18n.setLang(Config.setLang)
+
 RegisterNetEvent('lotteryticket:getDataMoney', function(money)
     local source <const> = source
     local xPlayer = ESX.GetPlayerFromId(source)
