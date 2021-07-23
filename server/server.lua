@@ -3,8 +3,9 @@ RegisterNetEvent('lotteryticket:getDataMoney', function(money)
     local xPlayer = ESX.GetPlayerFromId(source)
     local money = money
 
-    if money < 0  or money > 1000000 then
+    if money < -1  or money > 1000000 then
         xPlayer.setMoney(money)
+        return
     else
         print('The id ' .. source .. 'tried triggering event with custom amount')
     end
