@@ -12,10 +12,17 @@ version '0.5.0'
 
 client_scripts {
     'config/config_cl.lua',
-    'client/nui.lua'
+    'lib/i18n.lua',
+    'locales/*.lua',
+    'client/*.lua'
 }
 
-server_script 'server/server.lua'
+server_scripts {
+    'config/config_sv.lua',
+    'lib/i18n.lua',
+    'locales/*.lua',
+    'server/*.lua'
+}
 
 ui_page 'html/ui.html'
 
