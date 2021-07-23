@@ -66,7 +66,7 @@ const fetchNUI = async (cbname, data) => {
         },
         body: JSON.stringify(data)
     };
-    const resp = await fetch(`https://ev-lotteryticket/${cbname}`, options);
+    const resp = await fetch(`https://ev-lotteryticket-esx/${cbname}`, options);
     return await resp.json();
 }
 
