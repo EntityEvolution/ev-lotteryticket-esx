@@ -19,7 +19,6 @@ const getRandomNumber = (type) => {
     if (hardNum > 1) {
         hardNum = hardNum - Config.reduceHardNumber
     }
-
     let extNum = getRandomNumBetween(0, hardNum);
     if (type === 'med') {
         return medNum
@@ -49,7 +48,6 @@ const beginNums = () => {
 
 const getR = (value) => {
     let i = 0;
-    let err = false
     for (i=0; i < elem.length; i++) {
         if (i == value - 1) {
             let finalNums = elem[i].textContent
