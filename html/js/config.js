@@ -10,4 +10,4 @@ Config.thirdNumber = 'hard'
 Config.lastTwoNumbers = 'med'
 Config.multiplier = 'ext'
 
-Config.devMode = true
+Config.devMode = false
