@@ -1,4 +1,4 @@
-this.window.onload = () => {
+this.window.addEventListener('load', () => {
     window.addEventListener('message', (e) => {
         switch (e.data.action) {
             case 'beginNumbers':
@@ -6,4 +6,4 @@ this.window.onload = () => {
             break;
         }
     })
-}
+})
