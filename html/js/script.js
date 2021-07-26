@@ -3,6 +3,7 @@ this.window.addEventListener('load', () => {
         switch (e.data.action) {
             case 'beginNumbers':
                 beginNums();
+                doc.getElementById('wrapper').style.display = 'flex'
             break;
         }
     })

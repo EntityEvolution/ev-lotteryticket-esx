@@ -70,9 +70,11 @@ const fetchNUI = async (cbname, data) => {
 
 this.window.addEventListener('load', () => {
     if (Config.devMode) {
-        beginNums()
+        beginNums();
+        doc.getElementById('wrapper').style.display = 'flex';
     }
     end.addEventListener('click', () => {
         fetchNUI('getWinData', {one: getR(1), two: getR(2), three: getR(3), four: getR(4), five: getR(5), six: getR(6)})
+        doc.getElementById('wrapper').style.display = 'none';
     })
 })
