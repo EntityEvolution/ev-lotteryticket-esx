@@ -9,3 +9,5 @@ Config.firstTwoNumbers = 'ext'
 Config.thirdNumber = 'hard'
 Config.lastTwoNumbers = 'med'
 Config.multiplier = 'ext'
+
+Config.devMode = true

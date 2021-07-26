@@ -25,9 +25,5 @@ RegisterNetEvent('lotteryticket:beginNumbers', function()
 			SendNUIMessage({action = 'beginNumbers'})
 			SetNuiFocus(true, true)
 		end
-	else
-		if testEvent then
-			TriggerServerEvent('lotteryticket:setMoneyToSource', money) -- Set Money to source (yourself)
-		end
 	end
 end)

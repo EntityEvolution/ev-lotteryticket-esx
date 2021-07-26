@@ -16,15 +16,18 @@ RegisterNetEvent('lotteryticket:getDataMoney', function(money)
         sendNotification()
         return
     else
-        print('The id ' .. source .. 'tried triggering event with custom amount')
+        return print('The id ' .. source .. 'tried triggering event with custom amount')
     end
 end)
 
-RegisterNetEvent('lotteryticket:setMoneyToSource', function(fakeMoney)
-    local source <const> = source
-    if Config.kickPlayer then
-        DropPlayer(source, Config.kickMessage)
+function sendNotification()
+    if Config.useTnotify then
+
+    elseif Config.useESXNotify then
+        TriggerClientEvent('esx:showNotification', source)
+    elseif Config.useMythicNotify then
+
     else
-
+        TriggerClientEvent('esx:showNotification', source, )
     end
-end)
+end

@@ -1,3 +1,3 @@
-Config = Config or {}
+Config = {}
 
 Config.setLang = 'en' -- Select the language the mnu is going to be on (en, es, fr).
